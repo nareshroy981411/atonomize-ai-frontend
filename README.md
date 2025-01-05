@@ -1,4 +1,4 @@
-<!-- GitHub User Search Application
+GitHub User Search Application
 
 Introduction
 
@@ -42,8 +42,9 @@ Installation and Setup
 
 Clone the Repository
 
-$ git clone <repository-link>
-$ cd github-user-search
+$ git clone https://github.com/nareshroy981411/atonomize-ai-frontend.git
+$ git clone https://github.com/nareshroy981411/Atonomize_AI.git
+$ cd atonomize-ai-backend
 
 Backend Setup
 
@@ -54,11 +55,11 @@ $ npm install
 
 Configure the Database:
 
-Create a MySQL database named github_user_db.
+Create a MySQL database named github.
 
 Import the provided SQL script to create the users table.
 
-CREATE DATABASE github_user_db;
+CREATE DATABASE github;
 USE github;
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -95,7 +96,7 @@ Frontend Setup
 
 Install dependencies:
 
-$ cd frontend
+$ cd atonomize-ai-frontend
 $ npm install
 
 Run the React App:
@@ -126,10 +127,10 @@ Get All Users: GET /api/users
 
 Delete User: DELETE /api/users/:username
 
-Video Demonstration
+Video Demonstration:
+Drive Video Link --> https://drive.google.com/file/d/1QXyNMau4dajDmy5yjAdzHRUlXeyvXDE1/view?usp=sharing
 
-Drive Video Link
-
-GitHub Repository
-
-Repository Link -->
+GitHub Repository:
+Repository Link --> https://github.com/nareshroy981411/atonomize-ai-frontend
+Repository Link --> https://github.com/nareshroy981411/Atonomize_AI/tree/main/atonomize-ai-backend
+documentation Link -> https://drive.google.com/file/d/1-moJZJL6Igcs9AnJIXOZ7srZe_7wYZTS/view?usp=sharing
